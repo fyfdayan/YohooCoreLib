@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency 'FMDB'
   s.dependency 'MBProgressHUD'
   s.dependency 'Unirest'
-  s.dependency 'Realm+JSON'
+  s.dependency 'Realm+JSON' 
   
 end
