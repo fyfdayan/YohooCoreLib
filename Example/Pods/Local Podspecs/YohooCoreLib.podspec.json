@@ -1,0 +1,43 @@
+{
+  "name": "YohooCoreLib",
+  "version": "0.1.0",
+  "summary": "A short description of YohooCoreLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://code.csdn.net/fyfdayan/yohoocorelib-ios.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "傅雁锋": "bird@corplus.net"
+  },
+  "source": {
+    "git": "https://code.csdn.net/fyfdayan/yohoocorelib-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YohooCoreLib/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/**/*.h",
+  "dependencies": {
+    "MJExtension": [
+
+    ],
+    "Realm": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "Unirest": [
+
+    ],
+    "Realm+JSON": [
+
+    ]
+  }
+}

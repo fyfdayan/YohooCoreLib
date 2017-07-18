@@ -1,0 +1,58 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.1.1):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - Realm (0.103.2):
+    - Realm/Headers (= 0.103.2)
+  - Realm+JSON (0.2.14):
+    - Realm (~> 0.95)
+  - Realm/Headers (0.103.2)
+  - Specta (1.0.6)
+  - Unirest (1.1.4)
+  - YohooCoreLib (0.1.0):
+    - FMDB
+    - MBProgressHUD
+    - MJExtension
+    - Realm
+    - Realm+JSON
+    - Unirest
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - YohooCoreLib (from `../`)
+
+EXTERNAL SOURCES:
+  YohooCoreLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  Realm: 448f0416079fe5b0ed947e7d86f3c4e1c75826cb
+  Realm+JSON: 39bef066156e589b209a14e5f2d68754793f8843
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
+  YohooCoreLib: 374fa4dbbcfb86b9a7d8b116a4949a4be640ff90
+
+PODFILE CHECKSUM: 8eedb183d76f2f750082d39a0e6c4c8e28e70eb4
+
+COCOAPODS: 1.2.1

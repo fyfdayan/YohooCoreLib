@@ -1,0 +1,6 @@
+framework module YohooCoreLib {
+  umbrella header "YohooCoreLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

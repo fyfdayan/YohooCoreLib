@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'YohooCoreLib_Example' do
+  pod 'YohooCoreLib', :path => '../'
+
+  target 'YohooCoreLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
