@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
 
   s.description      = 'YohooCoreLib for yohoo'
 
-  s.homepage         = 'https://github.com/fyfdayan/YohooCoreLib.git'  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/fyfdayan/YohooCoreLib.git'  
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '傅雁锋' => 'bird@corplus.net' }
   s.source           = { :git => 'https://github.com/fyfdayan/YohooCoreLib.git', :tag => s.version.to_s }
   
