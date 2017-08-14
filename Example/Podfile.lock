@@ -21,7 +21,7 @@ PODS:
   - Realm/Headers (0.103.2)
   - Specta (1.0.6)
   - Unirest (1.1.4)
-  - YohooCoreLib (0.1.0):
+  - YohooCoreLib (0.1.1):
     - FMDB
     - MBProgressHUD
     - MJExtension
@@ -51,7 +51,7 @@ SPEC CHECKSUMS:
   Realm+JSON: 39bef066156e589b209a14e5f2d68754793f8843
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
   Unirest: 5e4d93eaf32463bf619a4ecd3bbc8c32acf21eac
-  YohooCoreLib: 374fa4dbbcfb86b9a7d8b116a4949a4be640ff90
+  YohooCoreLib: 533569a9652a1abcd72ea6ea14e4627cfdde75aa
 
 PODFILE CHECKSUM: 8eedb183d76f2f750082d39a0e6c4c8e28e70eb4
 
