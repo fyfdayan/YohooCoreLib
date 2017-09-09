@@ -39,6 +39,7 @@
 #import "DigestUtils.h"
 #import "NSURLRequest+IgnoreSSL.h"
 #import "StringUtils.h"
+#import "ViewLoader.h"
 #import "ViewUtils.h"
 #import "YohooCoreLib.h"
 
