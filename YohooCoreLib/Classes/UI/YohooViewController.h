@@ -26,7 +26,7 @@
 
  @return <#return value description#>
  */
-- (NSString *)frameworkName;
+- (NSString *)frameworkName DEPRECATED_MSG_ATTRIBUTE("deprecated in version 0.2.0");
 
 
 /**
@@ -34,7 +34,7 @@
 
  @return <#return value description#>
  */
-- (NSString *)nibNameFromFramework:(NSString *)nibName;
+- (NSString *)nibNameFromFramework:(NSString *)nibName DEPRECATED_MSG_ATTRIBUTE("deprecated in version 0.2.0");
 
 /**
  *  第一次布局时执行的方法

@@ -10,7 +10,7 @@
 
 @interface ViewLoader : NSObject
 
-- (NSString *)frameworkName DEPRECATED_MSG_ATTRIBUTE("deprecated in 0.2.0");
+- (NSString *)frameworkName DEPRECATED_MSG_ATTRIBUTE("deprecated in version 0.2.0");
 
 /**
  * @method loadViewWithViewClass:

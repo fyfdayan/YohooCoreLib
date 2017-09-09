@@ -31,9 +31,10 @@
 
 - (id)initWithDefaultNibName:(Class)controllerClass {
     NSString *nibName = NSStringFromClass(controllerClass);
-    nibName = [self nibNameFromFramework:nibName];
+//    nibName = [self nibNameFromFramework:nibName];
+    NSBundle *bundle = [NSBundle bundleForClass:controllerClass];
     
-    return [self initWithNibName:nibName bundle:nil];
+    return [self initWithNibName:nibName bundle:bundle];
 }
 
 - (NSString *)nibNameFromFramework:(NSString *)nibName {
