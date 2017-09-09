@@ -29,12 +29,14 @@
 
 - (id)loadViewWithViewClass:(Class)viewClass owner:(id)owner atIndex:(int)index {
     NSString *nibName = NSStringFromClass(viewClass);
-    NSString *frameworkName = [self frameworkName];
-    if ([StringUtils isNotEmpty:frameworkName]) {
-        nibName = [NSString stringWithFormat:@"%@.framework/%@", frameworkName, nibName];
+    
+    NSBundle *bundle = [NSBundle bundleForClass:viewClass];
+    NSArray *views = [bundle loadNibNamed:nibName owner:owner options:nil];
+    if (index >= 0 && index < views.count) {
+        return views[index];
     }
     
-    return [self loadViewFromNib:nibName owner:owner atIndex:index];
+    return nil;
 }
 
 - (id)loadViewFromNib:(NSString *)nibName {
