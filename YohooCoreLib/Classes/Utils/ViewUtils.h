@@ -74,7 +74,14 @@
  */
 + (id)loadViewFromNib:(NSString *)nibName owner:(id)owner atIndex:(int)index;
 
+/**
+ 从xib加载view
 
+ @param nibName xib的名称
+ @param bundleName bundle 名称
+ @return view
+ */
++ (id)loadViewFromNib:(NSString *)nibName withBundle:(NSString *)bundleName owner:(id)owner;
 
 /**
  * @method removeAllSubViews:

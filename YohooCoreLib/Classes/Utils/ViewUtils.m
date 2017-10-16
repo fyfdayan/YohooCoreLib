@@ -47,6 +47,17 @@
     return [[ViewUtils getLoader] loadViewFromNib:nibName owner:owner atIndex:index];
 }
 
++ (id)loadViewFromNib:(NSString *)nibName withBundle:(NSString *)bundleName owner:(id)owner {
+    NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"bundleName"]];
+    NSArray *views = [bundle loadNibNamed:nibName owner:owner options:nil];
+    NSInteger index = 0;
+    if (index >= 0 && index < views.count) {
+        return views[index];
+    }
+    
+    return nil;
+}
+
 
 + (void)removeAllSubViews:(UIView *)view {
     [[ViewUtils getLoader] removeAllSubViews:view];
