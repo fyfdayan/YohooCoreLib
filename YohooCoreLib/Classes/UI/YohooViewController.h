@@ -20,6 +20,8 @@
  */
 - (id)initWithDefaultNibName:(Class)controllerClass;
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundleName:(NSString *)bundleName;
+
 /**
  framework名称，允许为空
     如果不为空调用initWithDefaultNibName这个方法时则会自动补齐为：@"frameworkname.framework/class"

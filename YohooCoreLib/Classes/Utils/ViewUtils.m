@@ -48,7 +48,7 @@
 }
 
 + (id)loadViewFromNib:(NSString *)nibName withBundle:(NSString *)bundleName owner:(id)owner {
-    NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"bundleName"]];
+    NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:bundleName]];
     NSArray *views = [bundle loadNibNamed:nibName owner:owner options:nil];
     NSInteger index = 0;
     if (index >= 0 && index < views.count) {

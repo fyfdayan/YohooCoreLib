@@ -37,6 +37,11 @@
     return [self initWithNibName:nibName bundle:bundle];
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundleName:(NSString *)bundleName {
+    NSBundle *bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:bundleName]];
+    return [self initWithNibName:nibNameOrNil bundle:bundle];
+}
+
 - (NSString *)nibNameFromFramework:(NSString *)nibName {
     NSString *frameworkName = [self frameworkName];
     if ([StringUtils isNotEmpty:frameworkName]) {
